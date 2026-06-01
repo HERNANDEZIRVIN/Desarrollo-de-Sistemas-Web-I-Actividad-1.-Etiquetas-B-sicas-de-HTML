@@ -1,0 +1,349 @@
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Desarrollo de Sistemas Web I
+Actividad 1. Etiquetas Básicas de HTML
+
+Ingeniería en Desarrollo de Software
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TUTOR:
+
+ALUMNO: Irvin Santiago Hernández Hernández
+
+FECHA:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Introducción
+
+En esta actividad se desarrolló una página web básica utilizando HTML y CSS mediante el programa Visual Studio Code.
+El propósito principal fue crear una interfaz donde el usuario pudiera ingresar datos personales utilizando formularios y posteriormente visualizar una pantalla de resultados.
+Durante la realización de la actividad se utilizaron etiquetas básicas de HTML, hojas de estilo CSS e imágenes para mejorar la apariencia visual de la página web.
+También se aprendió la manera en que diferentes archivos HTML pueden conectarse entre sí mediante enlaces y botones.
+
+
+Descripción
+
+La actividad consistió en crear una página web formada por dos archivos HTML y un archivo CSS.
+El primer archivo llamado index.html funciona como una página principal donde el usuario puede ingresar datos personales como:
+Nombre
+Edad
+Ciudad donde vive
+Pasatiempo favorito
+Después de ingresar los datos, se agregó un botón que redirecciona hacia una segunda página llamada resultados.html.
+En esta segunda página se muestra un mensaje de resultados junto con una imagen y un mensaje de confirmación.
+Para mejorar la apariencia visual se utilizó una hoja de estilos CSS llamada stile.css.
+
+
+Justificación
+
+La elaboración de esta actividad es importante porque permite comprender el funcionamiento básico de HTML y CSS en el desarrollo de páginas web.
+Además, ayuda a practicar la creación de formularios, el uso de etiquetas básicas y la conexión entre diferentes páginas mediante enlaces.
+También permite aprender cómo personalizar interfaces utilizando estilos CSS para mejorar la presentación visual de un sitio web.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Desarrollo
+
+Instalación de Visual Studio Code
+Primero se realizó la instalación de Visual Studio Code siguiendo el tutorial proporcionado en la plataforma.
+Después se creó una carpeta llamada “Proyecto”, donde se almacenaron todos los archivos utilizados para la actividad.
+
+Creación del archivo index.html
+Posteriormente se creó el archivo llamado index.html, el cual funciona como la página principal del proyecto.
+Dentro de este archivo se agregaron diferentes etiquetas HTML básicas para crear la estructura del formulario.
+Las etiquetas utilizadas fueron:
+<html>
+<head>
+<title>
+<body>
+<h1>
+<h2>
+<p>
+<hr>
+<label>
+<input>
+<a>
+También se agregó la conexión con la hoja de estilos CSS mediante la etiqueta:
+<link rel="stylesheet" href="css/stile.css">
+
+
+Explicación del formulario
+En el formulario se agregaron campos para capturar información personal del usuario.
+Los datos solicitados fueron:
+Nombre
+Edad
+Ciudad donde vives
+Pasatiempo favorito
+Para capturar los datos se utilizaron las etiquetas <label> e <input>.
+Además, se agregó un botón que redirecciona automáticamente hacia la página resultados.html.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Captura 1. Código de index.html
+ 
+
+En esta captura se puede observar la estructura principal del formulario creado en HTML.
+También se observa el uso de etiquetas para títulos, párrafos, líneas horizontales y cuadros de texto.
+
+
+Creación del archivo resultados.html
+Después se creó un segundo archivo llamado resultados.html.
+Este archivo funciona como la página de resultados del proyecto.
+Dentro de esta página se agregó:
+Un título principal
+Una imagen
+Un mensaje final
+También se agregó la conexión con la hoja de estilos CSS para mantener el mismo diseño visual.
+ 
+Explicación de la imagen
+La imagen utilizada fue almacenada dentro de la carpeta img del proyecto.
+Para mostrarla en pantalla se utilizó la etiqueta:
+<img src="img/hombre_araña.jpg" alt="hombre_araña" width="150">
+La imagen aparece centrada en la pantalla junto con el mensaje “¡Bien Hecho!”.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Captura 2. Código de resultados.html
+ 
+En esta captura se puede observar el código utilizado para crear la pantalla de resultados.
+También se muestra la manera en que se agregó la imagen y el subtítulo final.
+
+Creación del archivo stile.css
+Finalmente se creó el archivo stile.css, el cual contiene los estilos visuales del proyecto.
+En este archivo se modificaron aspectos como:
+Color de fondo
+Tipo de letra
+Colores del texto
+Espaciado
+Diseño de inputs
+Diseño de etiquetas
+Posición de los elementos
+También se utilizaron las clases .dive y .dive2 para organizar visualmente el contenido.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Captura 3. Código de stile.css
+ 
+En esta captura se observa la hoja de estilos utilizada para personalizar la apariencia de la página web.
+Gracias a CSS se logró un diseño más ordenado y visualmente más agradable.
+
+
+
+
+
+
+
+
+
+
+Captura 4. Interfaz principal
+ 
+En esta captura se muestra la página principal del proyecto.
+Aquí se observa el formulario donde el usuario puede ingresar sus datos personales.
+También se aprecia el diseño realizado con CSS, utilizando un fondo oscuro y un contenedor blanco centrado.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Captura 5. Interfaz de resultados
+ 
+En esta captura se muestra la pantalla final del proyecto.
+Aquí aparece el título “¡RESULTADOS!”, una imagen de Spider-Man y el mensaje “¡BIEN HECHO!”.
+Esta pantalla aparece después de presionar el botón del formulario principal.
+
+Funcionamiento general del proyecto
+El proyecto funciona mediante dos páginas HTML conectadas entre sí.
+La primera página permite ingresar datos personales mediante formularios.
+Después, al presionar el botón, el usuario es redireccionado automáticamente hacia la segunda página, donde se muestra una pantalla de resultados con una imagen y un mensaje final.
+Además, se utilizó CSS para mejorar la apariencia visual y organizar correctamente todos los elementos.
+________________________________________
+
+
+
+
+
+
+
+
+
+Conclusiones
+
+En esta actividad aprendí a utilizar etiquetas básicas de HTML para crear páginas web sencillas.
+También aprendí a utilizar formularios, imágenes, botones y hojas de estilo CSS para mejorar el diseño visual de una página.
+Además, comprendí cómo conectar diferentes archivos HTML mediante enlaces y cómo organizar correctamente un proyecto web dentro de Visual Studio Code.
+Gracias a esta práctica fue posible comprender mejor el funcionamiento básico del desarrollo web y la importancia del diseño visual en una página.
+
+Referencias
+HTML Tutorial. (s.f.). Recuperado de https://www.w3schools.com/html/
+CSS Tutorial. (s.f.). Recuperado de https://www.w3schools.com/css/
+Apoyo adicional mediante inteligencia artificial para comprender la estructura y funcionamiento del código HTML y CSS.
+
